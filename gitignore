@@ -1,0 +1,60 @@
+# Generic Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.versions
+pom.xml.bak
+pom.xml.releaseBackup
+dependency-reduced-pom.xml
+buildnumber.properties
+.mvn/wrapper/maven-wrapper.jar
+!**/.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!**/build/
+.gradletasknamecache
+gradle-app.setting
+
+# IDE specific files
+.idea/
+.vscode/
+.settings/
+.metadata
+.classpath
+.project
+.factorypath
+.externalToolBuilders/
+*.launch
+.springBeans
+
+# Eclipse
+.sts4-cache/
+bin/
+tmp/
+.recommenders/
+.cache-main
+
+# System and Temporary Files
+*.log
+logs/
+/out/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.DS_Store
+Thumbs.db
+
+# Environment variables & credentials
+# Ensure sensitive files (e.g., those with credentials) are added here
+# For example, if you use an env.properties file:
+env.properties
+
