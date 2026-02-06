@@ -1,7 +1,5 @@
 # Generic Java
 *.class
-*.jar
-*.war
 *.ear
 
 # Maven
